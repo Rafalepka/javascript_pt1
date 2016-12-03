@@ -10,7 +10,7 @@
 
 Osoba.wyswietlDetale();*/
 
-var mojeDane = {
+/*var mojeDane = {
     imie: "Rafał",
     wzrost: "196 cm",
     details: function() {
@@ -32,3 +32,9 @@ console.log(mojeDane.oczy, mojeDane.imie, mojeDane.wzrost);
 delete mojeDane.oczy;
 
 mojeDane.details();
+
+Mamy tablice z elementami od 2 do 8
+funkcja ktora doda kazdy element z funkcji i zwroci wynik
+
+*/
+
