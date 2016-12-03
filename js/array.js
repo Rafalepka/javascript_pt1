@@ -17,8 +17,9 @@ var dlugoscTablicy; // zmienna dlugosc tablicy
 dlugoscTablicy = kolory.unshift("bialy"); // dodaje na poczatek kolor
 //funcja unshift ma sama w sobie parametr return, zeby zwrocic jego wartosc nalezy zadeklarowac zmienna ktora za to odpowie.
 
-/*var uniwersalnaZmienna;
-console.log(dlugoscTablicy);
+var uniwersalnaZmienna;
+
+/*console.log(dlugoscTablicy);
 console.log(kolory);
 
 kolory.shift(); // usuwa 1 element w tablicy
@@ -48,7 +49,23 @@ console.log(kolory);
 uniwersalnaZmienna = kolory.sort();
 console.log (uniwersalnaZmienna);*/
 
-var kolory2 = ['niebieski','granatowy','aqua', 'granatowy'];
+var kolory2 = ['niebieski','granatowy','aqua', 'cyjan'];
 console.log(kolory2);
 
 console.log(kolory2.concat(kolory));
+
+console.log(kolory2.indexOf("niebieski"));
+/*
+(Array.isArray(liczba1)) ? console.log('jest') : console.log('nie jest');*/
+
+//console.log(kolory2.slice(0,2));
+
+var kolory3 = ['red','green','aqua', 'cyjan'];
+kolory3.splice( 1,0, "overray", "lazire");
+
+console.log(kolory3);
+
+console.log(kolory3.toString());
+
+
+
